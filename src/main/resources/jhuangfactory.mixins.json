@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.jhuanglululu.jhuanglululufactory.mixin",
+	"package": "net.jhuanglululu.jhuangfactory.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ExampleMixin"

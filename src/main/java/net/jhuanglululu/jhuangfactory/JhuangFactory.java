@@ -1,12 +1,15 @@
-package net.jhuanglululu.jhuanglululufactory;
+package net.jhuanglululu.jhuangfactory;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.jhuanglululu.jhuangfactory.block.ModBlocks;
+import net.jhuanglululu.jhuangfactory.item.ModItemGroups;
+import net.jhuanglululu.jhuangfactory.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class JhuanglululuFactory implements ModInitializer {
-	public static final String MOD_ID = "jhuanglululufactory";
+public class JhuangFactory implements ModInitializer {
+	public static final String MOD_ID = "jhuangfactory";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -19,6 +22,9 @@ public class JhuanglululuFactory implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

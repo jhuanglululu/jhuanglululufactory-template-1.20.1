@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "jhuanglululufactory",
+	"id": "jhuangfactory",
 	"version": "${version}",
-	"name": "JhuanglululuFactory",
+	"name": "JhuangFactory",
 	"description": "Someone tries to make a mod!",
 	"authors": [
 		"jhuanglululu"
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/jhuanglululufactory/icon.png",
+	"icon": "assets/jhuangfactory/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.jhuanglululu.jhuanglululufactory.JhuanglululuFactory"
+			"net.jhuanglululu.jhuangfactory.JhuangFactory"
 		],
 		"client": [
-			"net.jhuanglululu.jhuanglululufactory.JhuanglululuFactoryClient"
+			"net.jhuanglululu.jhuangfactory.JhuangFactoryClient"
 		],
 		"fabric-datagen": [
-			"net.jhuanglululu.jhuanglululufactory.JhuanglululuFactoryDataGenerator"
+			"net.jhuanglululu.jhuangfactory.JhuangFactoryDataGenerator"
 		]
 	},
 	"mixins": [
-		"jhuanglululufactory.mixins.json"
+		"jhuangfactory.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.7",

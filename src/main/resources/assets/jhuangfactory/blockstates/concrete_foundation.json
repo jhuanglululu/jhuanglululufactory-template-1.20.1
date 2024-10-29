@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "jhuangfactory:block/concrete_foundation"
+    }
+  }
+}
